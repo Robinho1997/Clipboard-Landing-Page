@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body {
+    font-family: bai jamjuree;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+h1, h2 , h3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+    text-align: center;
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: top;
+    flex-wrap: wrap;
+   
+    
+}
+
+.header img {
+    width:6em;
+    margin-bottom: 2em;
+}
+
+.header h1 {
+    font-size: 4rem;
+}
+
+.header p {
+    width: 40%;
+    
+}
+
+.download-buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.download-ios-button {
+background-color: hsl(171, 66%, 44%);
+color: white;
+border-style: none;
+font-family: bai jamjuree;
+border-radius: 40px;
+padding: 1em 6em 1em 6em;
+font-weight: 600;
+font-size: large;
+cursor: pointer;
+box-shadow: 0px 4px 2px hsl(172, 61%, 28%);
+
+}
+
+.download-mac-button {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-style: none;
+    font-family: bai jamjuree;
+    border-radius: 40px;
+    padding: 1em 6em 1em 6em;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 0px 4px 2px hsl(234, 50%, 48%);
+
+}
+
+.download-ios-button:hover {
+    opacity: 0.7
+}
+
+.download-mac-button:hover {
+    opacity: 0.7;
+}
+
+.text-beschreibung {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+
+.container-bild-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5em;
+    align-items: center;
+  
+    
+}
+
+.bild-mitte {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.margin-zero {
+    margin-top: 3em;
+}
+
+.flex-funktionen {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+    
+ }
+
+
+ .kleine-box {
+    width:  22em;
+    
+ }
+
+.margin-fixen {
+    margin-top: 0.8em;
+}
+
+.flex-logo-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 6em 3em 6em 3em;
+    gap: 2em;
+}
+
+.download-ios-button-unten {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border-style: none;
+    font-family: bai jamjuree;
+    border-radius: 40px;
+    padding: 1em 4em 1em 4em;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow: 0px 4px 2px hsl(172, 61%, 28%);
+    
+    }
+    
+    .download-mac-button-unten {
+        background-color: hsl(233, 100%, 69%);
+        color: white;
+        border-style: none;
+        font-family: bai jamjuree;
+        border-radius: 40px;
+        padding: 1em 4em 1em 4em;
+        font-weight: 600;
+        font-size: medium;
+        cursor: pointer;
+        box-shadow: 0px 4px 2px hsl(234, 50%, 48%);
+    
+    }
+
+    .download-ios-button-unten:hover {
+        opacity: 0.7;
+    }
+
+    .download-mac-button-unten:hover {
+        opacity: 0.7;
+    }
+
+
+    footer {
+        background-color: whitesmoke;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 5em;
+       
+    }
+
+    .flexbox-footer {
+        display: flex;
+        gap: 5em;
+        flex-wrap: wrap;
+       align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .footer-logo {
+        width: 3em;
+       
+    }
+
+    .footer-small {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        flex-wrap: wrap;
+        
+    }
+
+
+
+    @media (max-width:1000px) {
+        .bild-mitte img {
+            width: 80%;
+            
+            
+        }
+        
+header {
+   
+    background-image: url(/images/bg-header-mobile.png);
+    
+}
+        .header h1 {
+            font-size: 2rem;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+        .img-monitor {
+            width: 80%;
+        }
+
+        .container-bild-text {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            align-items: center;
+            margin-right: 2em;
+            margin-left: 2em;
+            text-align: center;
+            flex-wrap: wrap;
+            
+        }
+
+        .text-beschreibung {
+            margin-left: 2em;
+            margin-right: 2em;
+            width: auto;
+            padding: 0;
+            
+        }
+
+        .margin-zero {
+            margin-top: 0;
+        }
+
+        .flex-funktionen {
+            margin-right: 2em;
+            margin-left: 2em;
+        }
+
+footer {
+    padding-left: 0;
+    margin-top: 2em;
+}
+
+        .flexbox-footer {
+           gap: 1em;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+        }
+
+        .header p {
+            width: auto;
+            margin-left: 2em;
+            margin-right: 2em;
+            
+        }
+
+        .download-ios-button {
+           
+            border-radius: 40px;
+            padding: 1em 3em 1em 3em;
+            font-weight: 600;
+            font-size: large;
+           
+           
+            
+            }
+            
+            .download-mac-button {
+               
+                padding: 1em 3em 1em 3em;
+                font-weight: 600;
+                font-size: large;
+                
+            
+            }
+
+            .flex-logo-row {
+                gap: 4em;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                 margin: 1em;
+    
+            }
+    }
